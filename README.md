@@ -16,5 +16,5 @@ This repo will allow you to perform a mock training of our fMRI neuro-feedback f
 	
 2. **run the e2e training + testing**
 	```bash
-	python3.6 e2e_train.py --lr <f_learning_rate> --batch_size <f_batch_size> --epochs <f_epochs> --classification_epochs <classification_epochs> --	classifier_lr <classifier_learning_rate> --classifier_batch_size <classifier_batch_size> --type healthy
+	python3.6 e2e_train.py --lr <f_learning_rate> --batch_size <f_batch_size> --epochs <f_epochs> --classification_epochs <classification_epochs> --classifier_lr <classifier_learning_rate> --classifier_batch_size <classifier_batch_size> --type healthy
 	```
