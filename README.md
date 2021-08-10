@@ -2,7 +2,7 @@
 
 ## mock dataset demo
 
-since out data is confidential, we provide code to create a mock dataset - containing all the data one needs to run out network, only with random instead of real measured values.
+since out data is confidential, we provide code to create a mock dataset - containing all the data one needs to run our network, only with random instead of real measured values.
 
 ### steps
 
