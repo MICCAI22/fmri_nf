@@ -2,7 +2,7 @@
 
 ## mock dataset demo
 
-since out data is confidential, we provide code to create a mock dataset - containing all the data one needs to run our network, only with random instead of real measured values.
+This repo will allow you to perform a mock training of our fMRI neuro-feedback framework. Since the data we used is confidential, we provide code to create a mock dataset - containing all the data one needs to run our network, only with random instead of real measured values.
 
 ### steps
 
