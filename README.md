@@ -1,7 +1,7 @@
 # fmri_nf
-##mock dataset demo
+## mock dataset demo
 since out data is confidential, we provide code to create a mock dataset - containing all the data one needs to run out network, only with random instead of real measured values.
-###steps
+### steps
 **create mock dataset**
 	```bash
 	python3.6 create_mock_data.py --n_subjects <n_subjects>
