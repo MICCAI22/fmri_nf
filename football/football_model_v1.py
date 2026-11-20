@@ -117,7 +117,9 @@ def build_features(df):
             "is_champ": 1.0 if r.league == "E1" else 0.0,
         })
 
-        # ---- update state AFTER the match
+        # ---- update state AFTER the match (unplayed fixtures: features only, no update)
+        if not isinstance(r.FTR, str):
+            continue
         ph, pa = {"H": (3, 0), "D": (1, 1), "A": (0, 3)}[r.FTR]
         last[h].append((ph, r.FTHG, r.FTAG)); last[a].append((pa, r.FTAG, r.FTHG))
         last_home[h].append(ph); last_away[a].append(pa)
